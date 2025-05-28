@@ -120,8 +120,8 @@ body {
   justify-content: center;
   overflow: hidden;
   border-radius: 0.75rem; /* rounded-xl */
-  width: 2.5rem; /* h-10, assuming square buttons by px-2.5 */
-  height: 2.5rem; /* h-10 */
+  width: 1.5rem; /* h-10, assuming square buttons by px-2.5 */
+  height: 1.5rem; /* h-10 */
   background-color: #293542;
   color: white;
   text-decoration: none; /* Added to ensure no underline for a tags */
@@ -153,6 +153,10 @@ body {
 .avatar-image-header {
   width: 2.5rem; /* size-10 */
   height: 2.5rem; /* size-10 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 9999px; /* rounded-full */
 }
 
 /* Main Content Wrapper */
@@ -207,7 +211,7 @@ body {
   color: white;
   font-size: 22px;
   font-weight: 700; 
-  line-height: 1.25; 
+  line-height: 0.5; 
   letter-spacing: -0.015em; 
   text-align: center;
 }
@@ -216,7 +220,7 @@ body {
   color: #90adcb;
   font-size: 1rem; 
   font-weight: 400; 
-  line-height: 1.5; 
+  line-height: 0.5; 
   text-align: center;
 }
 
