@@ -237,6 +237,10 @@ body {
   box-sizing: border-box;
 }
 
+.section-text {
+  padding: 1.25rem 0.75rem 0.75rem 0.75rem; 
+}
+
 /* Featured Projects Section */
 .projects-scroller-container {
   display: flex;
