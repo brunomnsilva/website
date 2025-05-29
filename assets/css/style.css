@@ -168,6 +168,7 @@ body {
   justify-content: center;
   padding: 1.25rem 10rem; /* py-5 px-40 */
   box-sizing: border-box;
+  scroll-margin-top: 300px;
 }
 
 .content-limiter {
@@ -188,6 +189,7 @@ body {
   gap: 1rem; 
   align-items: center; 
   box-sizing: border-box;
+  scroll-margin-top: 5rem;
 }
 
 .profile-card { 
@@ -222,7 +224,7 @@ body {
   color: #90adcb;
   font-size: 1rem; 
   font-weight: 400; 
-  line-height: 0.5; 
+  line-height: 1; 
   text-align: center;
 }
 
@@ -235,6 +237,7 @@ body {
   letter-spacing: -0.015em; 
   padding: 1.25rem 1rem 0.75rem 1rem; 
   box-sizing: border-box;
+  scroll-margin-top: 5rem;
 }
 
 .section-text {
@@ -431,7 +434,7 @@ body {
   .content-area {
     /* Adjust padding top if header height changes significantly. 
        Current header is ~4rem. If it wraps and becomes ~6-7rem: */
-    padding-top: 6.5rem; 
+    padding-top: 8rem; 
   }
 
   .main-header {
@@ -478,6 +481,10 @@ body {
     font-size: 20px;
   }
 
+  .profile-section {
+    scroll-margin-top: 8rem;
+  }
+
   .projects-list {
     /* Cards will still scroll horizontally by default in their container */
     /* If vertical stacking is preferred:
@@ -494,6 +501,10 @@ body {
 
   .skills-list {
     justify-content: center; /* Center skill tags */
+  }
+
+  .section-title {
+    scroll-margin-top: 8rem;
   }
 }
 
